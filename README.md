@@ -1,6 +1,6 @@
 # Certificate Generator
 
-A brief description of your project.
+Python scripts generate markdown files as certificate from data taken from Excel files
 
 ## Prerequisites
 
@@ -29,12 +29,18 @@ Make sure you have the following installed on your system:
     ```bash
     pip install -r requirements.txt
     ```
+
+## Configeration before run the Python Script
+
+Before running the Python Script, make sure to rename your Excel to list.xlsx or manually replace filepath in main.py
+If your Excel file have additional sheet, be sure to replace the sheet you want to generate from to "Sheet1" or manually replace sheet name in main.py
+
 ## Running the Python Script
 
 Execute the following command to run the Python script:
 
 ```bash
-python your_script.py
+python main.py
 ```
 
 ## Usage
